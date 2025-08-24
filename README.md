@@ -15,5 +15,5 @@ Steps to use the program -
 4. Enter the url of the video you want to download.
 5. Click on Download button.(does not work by clicking pressing enter)
 6. Wait for atleast 2 mins.
----> Now your video is downloaded in your script directory <---
+---> Now your video is downloaded in your script's directory <---
 ---------------------------------------------------------------------------------------------------
