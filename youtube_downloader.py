@@ -25,9 +25,9 @@ def download_video():
 
 def play_video(file_path):
     try:
-        if os.name == 'nt':  # For Windows
+        if os.name == 'nt':
             os.startfile(file_path)
-        else:  # For other OS
+        else:
             subprocess.call(['xdg-open', file_path])
     except Exception as e:
         messagebox.showerror("Error", f"Failed to play video: {str(e)}")
@@ -35,13 +35,11 @@ def play_video(file_path):
 def exit_app():
     root.destroy()
 
-# Create the main window
 root = tk.Tk()
 root.title("YouTube Video Downloader")
 root.geometry("400x200")
-root.resizable(False, False)  # Make the window unextensible
+root.resizable(False, False)
 
-# Create and place widgets
 url_label = tk.Label(root, text="Enter YouTube URL:")
 url_label.pack(pady=10)
 
@@ -54,5 +52,4 @@ download_button.pack(pady=10)
 exit_button = tk.Button(root, text="Exit", command=exit_app)
 exit_button.pack(pady=5)
 
-# Run the application
 root.mainloop()
