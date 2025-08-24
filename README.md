@@ -4,7 +4,7 @@ Run this command in your terminal to download the required library used by this 
 pip install yt-dlp
 -----------------------------------------------------------------------------------------------------
 The GUI includes -
-1. Input box in which u will enter the url of the youtube video which you want to download on your system.
+1. Input box in which you will enter the url of the youtube video which you want to download on your system.
 2. Downlaod button that is the main button that will let you download the video after entering the url of the video.
 3. Exit the button used to exit the program (optional) you can also do it by killing the terminal.
 ---------------------------------------------------------------------------------------------------
